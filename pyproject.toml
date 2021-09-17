@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "github-action-pages-cicd-example"
+version = "0.1.0"
+description = "Example of using CI/CD to generate documentation and publish on the repository's GitLab Pages."
+license = "CC0-1.0"
+authors = ["Christopher Aubut <christopher.aubut@charter.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+sphinx-tabs = "^3.2.0"
+
+[tool.poetry.dev-dependencies]
+Sphinx = "^4.1.*"
+sphinx-rtd-theme = "^0.5.*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
